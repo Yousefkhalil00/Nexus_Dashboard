@@ -34,7 +34,8 @@ const RevenueChart = () => {
             Monthly revenue and expenses
           </p>
         </div>
-        <div className="flex items-center space-x-4">
+        <div className="flex flex-col">
+          <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-2">
             <div className="w-3 h-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full"></div>
             <div className="text-sm text-slate-600 dark:text-slate-400">
@@ -49,6 +50,7 @@ const RevenueChart = () => {
           </div>
         </div>
       </div>
+        </div>
       <div className="h-80">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
