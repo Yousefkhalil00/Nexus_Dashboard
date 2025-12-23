@@ -4,7 +4,6 @@ import {
   Plus,
   Search,
   Settings,
-  Sun,
   Bell,
   ChevronDown,
 } from "lucide-react";
@@ -44,9 +43,6 @@ const Header = ({ sidebarCollapsed, onToggleSide }) => {
           <button className="hidden lg:flex items-center space-x-2 py-2 px-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl hover:shadow-lg transition-all">
             <Plus className="w-4 h-4" />
             <span className="text-sm font-medium">New</span>
-          </button>
-          <button className="p-2.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
-            <Sun className="w-5 h-5" />
           </button>
           <button className="relative p-2.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
             <Bell className="w-5 h-5" />
